@@ -1,10 +1,10 @@
 digraph blueprint_example {
-	rankdir=LR size="8,5"
-	Start
-	IdentitySystemTask
-	IdentityUserTask
-	Finish
-	Start -> IdentitySystemTask
-	IdentitySystemTask -> IdentityUserTask
-	IdentityUserTask -> Finish
+	rankdir=LR size="8,0"
+	1 [shape=circle]
+	2 [color=lightsalmon shape=box style="rounded, filled"]
+	3 [color=lightsalmon shape=box style="rounded, filled"]
+	4 [shape=doublecircle style=filled]
+	1 -> 2
+	2 -> 3
+	3 -> 4
 }
