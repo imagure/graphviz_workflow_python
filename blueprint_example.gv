@@ -1,0 +1,10 @@
+digraph blueprint_example {
+	rankdir=LR size="8,5"
+	Start
+	IdentitySystemTask
+	IdentityUserTask
+	Finish
+	Start -> IdentitySystemTask
+	IdentitySystemTask -> IdentityUserTask
+	IdentityUserTask -> Finish
+}

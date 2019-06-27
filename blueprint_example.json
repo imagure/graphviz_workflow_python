@@ -1,0 +1,24 @@
+{
+	"nodes": [
+		{
+			"id": 1,
+			"type": "Start",
+			"next": 2
+		},
+		{
+			"id": 2,
+			"type": "IdentitySystemTask",
+			"next": 3
+		},
+		{
+			"id": 3,
+			"type": "IdentityUserTask",
+			"next": 4
+		},
+		{
+			"id": 4,
+			"type": "Finish",
+			"next": null
+		}
+	]
+}
